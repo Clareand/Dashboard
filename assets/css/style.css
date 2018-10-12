@@ -479,3 +479,7 @@ form .form-control {
   top:100%;
   transform: translateX(-50%);
 }
+
+.bg-dark {
+    background-color: #1f004a!important;
+}
