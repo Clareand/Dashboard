@@ -483,3 +483,20 @@ form .form-control {
 .bg-dark {
     background-color: #1f004a!important;
 }
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+}
